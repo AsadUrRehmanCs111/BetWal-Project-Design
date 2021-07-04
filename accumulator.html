@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> betval</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- fontawesome icon  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Global stylesheet -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/accumulator.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+
+<body>
+    <!-- header begin -->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-sm-6">
+                        <div class="left-area">
+                            <ul>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa fa-calendar-alt"></i>
+                                    </span>
+                                    <span class="text">
+                                        <span id="date">28</span>
+                                        <span id="month">May,</span>
+                                        <span id="year">2021</span>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="icon">
+                                        <i class="fa fa-clock"></i>
+                                    </span>
+                                    <span class="text clocks">
+                                        <span id="hours">9</span>:<span id="minutes">26</span>:<span
+                                            id="seconds">22</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6">
+                        <div class="right-area">
+                            <ul>
+
+
+                                <li>
+                                    <a class="link" href="#">
+                                        <i class="fal fa-user-circle fa-1x"></i>
+                                        Hi, John Doe
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navbar" class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 d-xl-flex d-lg-flex d-block align-items-center">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-6 d-xl-block d-lg-block d-flex align-items-center">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo.png" alt="logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 d-xl-none d-lg-none d-block">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="mainmenu">
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="mybets.html">My Bets</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="accumulator.html">Accumulator</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="specials.html">Specials</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="football.html">Football</a>
+                                        </li>
+
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login.html">Sign In</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Register </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <div class="breadcrumb-bettix standing-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="breadcrumb-content">
+                        <h2>SPECIALS</h2>
+                        <ul>
+                            <li>
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li><i class="fas fa-caret-right"></i></li>
+                            <li>
+                                <a href="#">SPECIALS</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb end -->
+
+    <!-- accumulator begin -->
+    <section class="accumulator">
+        <div class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="accumulator-top">
+                        <button class="btn mt-5" type="button" data-toggle="collapse" data-target="#collapseExample"
+                            aria-expanded="true" aria-controls="collapseExample">
+                            Add New Accumulator
+                        </button>
+                        <div class="collapse show" id="collapseExample">
+                            <form action="" method="POST">
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Name of the Accumulator</label>
+                                    <input type="text" name="name" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- row start -->
+                <div class="row">
+                    <div class="col-md-12 mt-3 mb-4 pt-3">
+                        <h1 class="text-center">Your Active Accumulators</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-2">
+                        <div class="card bg-dark">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">
+                                    PSG
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Status : Cancelled
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Odds : 1.00
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Amount : £ -2
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Payment Status : Completed
+                                </h6>
+                                <a href="./accumulatordata.html"><button type="button" class="btn btn-block mt-3">
+                                        View
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-2">
+                        <div class="card  bg-dark">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center">
+                                    PSG
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Status : Cancelled
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Odds : 1.00
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Amount : £ -2
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">Payment Status : Completed</h6>
+                                <a href="./accumulatordata.html"><button type="button" class="btn btn-block mt-3">
+                                        View
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-2">
+                        <div class="card  bg-dark">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center">
+                                    PSG
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Status : Cancelled
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Odds : 1.00
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Amount : £ -2
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">Payment Status : Completed</h6>
+                                <a href="./accumulatordata.html"><button type="button" class="btn btn-block mt-3">
+                                        View
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-2">
+                        <div class="card bg-dark">
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center">
+                                    PSG
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Status : Cancelled
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Odds : 1.00
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    Amount : £ -2
+                                </h6>
+                                <h6 class="card-subtitle mb-2 text-muted">Payment Status : Completed</h6>
+                                <a href="./accumulatordata.html"><button type="button" class="btn btn-block mt-3">
+                                        View
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+        </div>
+    </section>
+    <!-- accumulator end -->
+
+    <!-- footer begin -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-6 col-lg-5 col-md-12">
+                    <div class="about-widget">
+                        <a class="logo" href="index.html">
+                            <img src="assets/img/logo.png" alt="">
+                        </a>
+                        <p>Betval offers you all the best online prediction from every corner of the planet with
+                            thousands of online prediction markets.
+                        </p>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social-icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="support">
+                            <ul>
+                                <li>
+                                    <span class="icon">
+                                        <img src="assets/img/svg/email.svg" alt="">
+                                    </span>
+                                    <span class="text">
+                                        <span class="title">Mail Us</span>
+                                        <span class="descr">admin@betval.co.uk</span>
+                                    </span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-6  col-sm-6">
+                    <div class="useful-links">
+                        <h3>Connect With Us</h3>
+                        <ul>
+                            <li>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#">MY BETS</a>
+                            </li>
+                            <li>
+                                <a href="#">ACCUMULATOR</a>
+                            </li>
+                            <li>
+                                <a href="#">SPECIALS</a>
+                            </li>
+                            <li>
+                                <a href="#">FOOTBALL</a>
+                            </li>
+                            <li>
+                                <a href="#">SIGN TN</a>
+                            </li>
+                            <li>
+                                <a href="#">REGISTER</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                    <div class="useful-links">
+                        <h3>All Sports</h3>
+                        <ul>
+                            <li>
+                                <a href="#">FOOTBALL</a>
+                            </li>
+                            <li>
+                                <a href="#">BASKETBALL</a>
+                            </li>
+                            <li>
+                                <a href="#">TENNIS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="payment-method">
+                                <div class="all-method">
+                                    <div>
+                                        <h1> Best Odds Guaranteed</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    <!-- breadcrumb begin -->
+
+
+
+
+    <!-- copyright footer begin -->
+    <div class="copyright-footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 d-lg-flex d-block align-items-center">
+                    <p class="copyright-text text-center">
+                        <a href="#">Betval</a> © 2020. PRIVACY POLICY
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
